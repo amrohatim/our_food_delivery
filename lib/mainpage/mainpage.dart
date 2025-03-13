@@ -31,7 +31,7 @@ class _MainPageState extends State<MainPage> {
         bool isSaler = controller.isSaler;
         return Scaffold(
           appBar: AppBar(
-            toolbarHeight: 5.1.h,
+            toolbarHeight: 5.h,
             backgroundColor: Color(0xff000000).withAlpha(220),
           ),
           body: isSaler == true
